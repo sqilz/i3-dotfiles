@@ -1,4 +1,7 @@
-i3 config file (v4)
+#i3 config file (v4)
+
+#wallpaper
+feh --bg-scale /home/przemo/Pictures/nature-sky-night-631477.jpg
 
 set $mod Mod4
 
@@ -127,10 +130,10 @@ bindsym $mod+a focus parent
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 "browser"
-set $ws2 "2"
-set $ws3 "3"
-set $ws4 "4"
+set $ws1 "terminal"
+set $ws2 "browser"
+set $ws3 "disotify"
+set $ws4 "vscode"
 set $ws5 "5"
 set $ws6 "6"
 set $ws7 "7"
